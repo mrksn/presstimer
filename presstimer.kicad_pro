@@ -648,7 +648,7 @@
         "uuid": "63494a82-20b5-470b-977d-6a82bfa70174"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U6,Q8-11,R23-24,R30-43,J11-12,C10-14,D10-17,#PWR34-35,#PWR47-69",
     "variants": []
   },
   "sheets": [
@@ -659,6 +659,10 @@
     [
       "048846d0-a170-404e-a1d1-f9fe8e74c5ed",
       "Connections"
+    ],
+    [
+      "0171fa45-2753-4764-a2d1-635868f3d686",
+      "usb-serial"
     ]
   ],
   "text_variables": {},

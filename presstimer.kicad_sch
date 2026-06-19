@@ -11496,6 +11496,52 @@
 		)
 	)
 	(sheet
+		(at 66.04 177.8)
+		(size 12.7 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0171fa45-2753-4764-a2d1-635868f3d686")
+		(property "Sheetname" "usb-serial"
+			(at 66.04 177.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb-serial.kicad_sch"
+			(at 66.04 193.6246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "presstimer"
+				(path "/63494a82-20b5-470b-977d-6a82bfa70174"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 43.18 177.8)
 		(size 12.7 15.24)
 		(exclude_from_sim no)
