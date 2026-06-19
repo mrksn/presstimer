@@ -2830,7 +2830,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at -3.81 3.175 0)
+				(at -3.81 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2840,7 +2840,7 @@
 				)
 			)
 			(property "Value" "AP7361C-33ER"
-				(at 0 3.175 0)
+				(at 0 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2908,7 +2908,7 @@
 			)
 			(symbol "AP7361C-33ER_0_1"
 				(rectangle
-					(start -5.08 1.905)
+					(start -5.08 2.54)
 					(end 5.08 -5.08)
 					(stroke
 						(width 0.254)
@@ -2967,6 +2967,25 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10945,7 +10964,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "markus:DG305-5.0-02P-12-00A(H)"
 			(at 26.67 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -11148,6 +11167,9 @@
 		)
 		(pin "1"
 			(uuid "e48a4555-e695-4f71-a1a3-08f56c32f17e")
+		)
+		(pin "4"
+			(uuid "7dd7b570-6105-4cdf-a06c-5f202882cf91")
 		)
 		(instances
 			(project "presstimer"
