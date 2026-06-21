@@ -516,7 +516,23 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3V3": "rgb(255, 255, 0)",
+      "+5V": "rgb(255, 0, 0)",
+      "Net-(U6-VBUS)": "rgb(255, 0, 0)",
+      "U0RXD": "rgb(0, 194, 0)",
+      "U0TXD": "rgb(0, 194, 0)",
+      "UART_RX": "rgb(0, 194, 0)",
+      "UART_TX": "rgb(0, 194, 0)",
+      "USB2_5V": "rgb(255, 0, 0)",
+      "USB2_DN": "rgb(0, 194, 0)",
+      "USB2_DP": "rgb(0, 194, 0)",
+      "USB_5V": "rgb(255, 0, 0)",
+      "USB_ESP_DN": "rgb(0, 255, 0)",
+      "USB_ESP_DP": "rgb(0, 255, 0)",
+      "VBUSB": "rgb(255, 0, 0)",
+      "VBUSB2": "rgb(255, 0, 0)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },

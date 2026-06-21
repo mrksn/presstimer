@@ -5261,6 +5261,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C99782"
+			(at 68.58 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "226b3e56-4921-478a-9457-31d6f2276607")
 		)
@@ -5772,11 +5783,13 @@
 		)
 		(property "LCSC" "C77049"
 			(at 186.69 63.4999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5863,11 +5876,13 @@
 		)
 		(property "LCSC" "C28323"
 			(at 54.61 33.0199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6146,6 +6161,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C720477"
+			(at 161.29 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e638176b-9737-4cec-9253-9d94fc9672e8")
 		)
@@ -6304,6 +6330,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C105881"
+			(at 137.16 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5e9a1d32-d1fc-4aed-90d5-70cb01fe414f")
 		)
@@ -6387,11 +6424,13 @@
 		)
 		(property "LCSC" "C28326707"
 			(at 44.45 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6465,6 +6504,17 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 124.46 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C720477"
+			(at 124.46 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7106,6 +7156,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C22548"
+			(at 95.25 33.0199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "87602905-c6d4-437a-8630-c4d3d6417769")
 		)
@@ -7177,6 +7238,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 124.46 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17477"
+			(at 124.46 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7260,6 +7332,17 @@
 		)
 		(property "Description" "2.4 GHz WiFi (802.11 b/g/n) and Bluetooth ® 5 (LE) module Built around ESP32S3 series of SoCs, Xtensa ® dualcore 32bit LX7 microprocessor Flash up to 16 MB, PSRAM up to 8 MB 36 GPIOs, rich set of peripherals Onboard PCB antenna"
 			(at 203.2 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2913202"
+			(at 228.2033 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7701,6 +7784,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C99782"
+			(at 68.58 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "71c64a5c-33c6-4f74-9c5d-e0fbb44c715f")
 		)
@@ -7861,6 +7955,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C116677"
+			(at 185.42 52.0699 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "43930bbf-5ee3-49d9-833e-9af365c62da4")
 		)
@@ -7945,11 +8050,13 @@
 		)
 		(property "LCSC" "C2922787"
 			(at 165.1 163.7598 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8196,11 +8303,13 @@
 		)
 		(property "LCSC" "C237493"
 			(at 203.2 38.0999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8296,11 +8405,13 @@
 		)
 		(property "LCSC" "C84256"
 			(at 87.9475 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8465,11 +8576,13 @@
 		)
 		(property "LCSC" "C28323"
 			(at 82.55 33.0199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8555,11 +8668,13 @@
 		)
 		(property "LCSC" "C5632695"
 			(at 26.67 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8634,6 +8749,17 @@
 		)
 		(property "Description" "1A LOW DROPOUT ADJUSTABLE AND FIXED-MODE REGULATOR WITH ENABLE"
 			(at 68.58 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3743528"
+			(at 68.58 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8732,11 +8858,13 @@
 		)
 		(property "LCSC" "C77055"
 			(at 218.44 38.0999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
