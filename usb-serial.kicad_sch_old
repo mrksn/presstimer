@@ -2903,7 +2903,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 146.05) (xy 177.8 146.05)
+			(xy 172.72 146.05) (xy 190.5 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2930,16 +2930,6 @@
 			(type default)
 		)
 		(uuid "1e8f5e09-9c2a-40cb-80b0-43fc0413dd59")
-	)
-	(wire
-		(pts
-			(xy 185.42 146.05) (xy 190.5 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "212349da-61f3-4603-95af-5437d30c2b5b")
 	)
 	(wire
 		(pts
@@ -3473,7 +3463,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 114.3) (xy 176.53 114.3)
+			(xy 172.72 114.3) (xy 190.5 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3810,16 +3800,6 @@
 			(type default)
 		)
 		(uuid "dc750da8-43c4-4e41-8415-2d228e8e19cc")
-	)
-	(wire
-		(pts
-			(xy 184.15 114.3) (xy 190.5 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddec458b-3be0-4af4-aab6-f3ecab411bc9")
 	)
 	(wire
 		(pts
@@ -4580,7 +4560,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4642,12 +4622,14 @@
 			)
 		)
 		(property "LCSC" "C237493"
-			(at 217.17 39.3699 0)
+			(at 213.36 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5701,7 +5683,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5763,12 +5745,14 @@
 			)
 		)
 		(property "LCSC" "C77049"
-			(at 191.77 78.7399 0)
+			(at 187.96 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6468,97 +6452,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 181.61 146.05 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "65d3f244-485c-4177-bed5-a803ff36eb84")
-		(property "Reference" "R35"
-			(at 181.61 152.4 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 181.61 149.86 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0805"
-			(at 181.61 144.272 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 181.61 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C17477"
-			(at 181.61 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dabe0822-c38d-44db-b8ba-a744167541bf")
-		)
-		(pin "2"
-			(uuid "35e2c1df-8dbc-45c4-ad85-c584bee54bfd")
-		)
-		(instances
-			(project "presstimer"
-				(path "/63494a82-20b5-470b-977d-6a82bfa70174/0171fa45-2753-4764-a2d1-635868f3d686"
-					(reference "R35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_BJT:2SC4213")
 		(at 170.18 138.43 0)
 		(unit 1)
@@ -7170,97 +7063,6 @@
 			(project "presstimer"
 				(path "/63494a82-20b5-470b-977d-6a82bfa70174/0171fa45-2753-4764-a2d1-635868f3d686"
 					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 180.34 114.3 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f600419-a147-4574-9955-07a6dfac38e7")
-		(property "Reference" "R33"
-			(at 180.34 107.95 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 180.34 110.49 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0805"
-			(at 180.34 116.078 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 180.34 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C17477"
-			(at 180.34 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dffffb6d-5225-4881-912b-4e2880ccb8c3")
-		)
-		(pin "2"
-			(uuid "1e58cb7a-f632-4c60-8f62-6905b832e7aa")
-		)
-		(instances
-			(project "presstimer"
-				(path "/63494a82-20b5-470b-977d-6a82bfa70174/0171fa45-2753-4764-a2d1-635868f3d686"
-					(reference "R33")
 					(unit 1)
 				)
 			)
