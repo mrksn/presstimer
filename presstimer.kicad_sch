@@ -2354,10 +2354,9 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 45.72 -76.2 90)
 					(length 2.54)
-					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -3358,6 +3357,16 @@
 			(type default)
 		)
 		(uuid "62e8359d-a124-45d1-b6dc-00b8605ba63e")
+	)
+	(wire
+		(pts
+			(xy 248.92 135.89) (xy 248.92 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6778843b-5b37-4a72-bb11-c87a7f791397")
 	)
 	(wire
 		(pts
@@ -6234,7 +6243,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 232.41 135.89 0)
+		(at 248.92 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6245,7 +6254,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f94d5e0-b451-4d28-8d84-9dc99033614e")
 		(property "Reference" "#PWR017"
-			(at 232.41 142.24 0)
+			(at 248.92 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6256,7 +6265,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 232.41 140.97 0)
+			(at 248.92 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6266,7 +6275,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 135.89 0)
+			(at 248.92 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6277,7 +6286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 135.89 0)
+			(at 248.92 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6288,7 +6297,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 135.89 0)
+			(at 248.92 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
