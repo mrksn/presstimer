@@ -2751,7 +2751,7 @@
 			)
 			(symbol "SSR-41FDD_1_1"
 				(pin passive line
-					(at -7.62 2.54 0)
+					(at 7.62 2.54 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -2769,7 +2769,7 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -2.54 0)
+					(at 7.62 -2.54 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -2787,9 +2787,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name ""
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2805,9 +2805,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at -7.62 -2.54 0)
 					(length 2.54)
-					(name ""
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6497,7 +6497,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6589,7 +6589,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6799,7 +6799,7 @@
 				)
 			)
 		)
-		(property "Footprint" "markus:SSR-41FDD"
+		(property "Footprint" "01_dualpress:SSR-41FDD"
 			(at 223.52 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -7608,7 +7608,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8266,7 +8266,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9245,7 +9245,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9925,7 +9925,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10043,7 +10043,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10665,7 +10665,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
