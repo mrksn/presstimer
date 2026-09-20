@@ -8133,7 +8133,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C383211.pdf?spm=wm.sxq.inf.ggs&lcsc_vid=TgUKUwJfElBfVVBURVJeU10HE1hYVl1XFVYPUlwHEQAxVlNeTlRaUl1fRFNYUzsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D"
 			(at 78.74 138.43 0)
 			(hide yes)
 			(show_name no)

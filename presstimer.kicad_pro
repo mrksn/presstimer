@@ -83,6 +83,30 @@
       ],
       "drc_exclusions": [
         [
+          "hole_clearance|105800000|102100000|07f0affd-6cf8-4285-a07b-40a3f0c1747e|852b6ac1-b705-41a6-8439-907d79530689",
+          ""
+        ],
+        [
+          "hole_clearance|105800000|108000000|28ed0aa4-f77b-407f-a77e-d9b1200dce0a|c151b3ea-2b26-45cc-91fb-48855e81e999",
+          ""
+        ],
+        [
+          "hole_clearance|181675000|86800000|b218aee0-13cd-4ad0-97d5-c572409842f8|f4db7e5b-20b1-49d8-a423-b1ed761d7d0f",
+          ""
+        ],
+        [
+          "hole_clearance|187575000|86800000|a72697de-e9ed-4ed1-b6d0-c7f2aa960b60|73742f5a-289e-4173-ad0d-df702dd7747a",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|103000000|121844722|251e18c4-0211-4e18-b672-aad4462fede0|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|112255277|85000000|34cd2637-ecc4-470c-b808-216b2f31fe54|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "starved_thermal|187825000|87500000|07d4dc8d-a17f-41eb-854f-9e2f1409f272|a72697de-e9ed-4ed1-b6d0-c7f2aa960b60|F.Cu",
           ""
         ]
@@ -224,7 +248,11 @@
         0.152,
         0.25,
         0.5,
-        0.7
+        0.7,
+        1.0,
+        1.2,
+        1.3,
+        1.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -890,7 +918,7 @@
         "uuid": "63494a82-20b5-470b-977d-6a82bfa70174"
       }
     ],
-    "used_designators": "TP1-7,R7-8,#PWR18-19,#PWR71,D11-12",
+    "used_designators": "RV1-2,L1-2,J7,J13-17,SW3-15,Q11,U7-10,F2,K1-3,TP1-9,R7-8,R11,R41-43,#PWR18-21,#PWR24-28,#PWR44-46,#PWR50,#PWR54-55,#PWR62,#PWR71-72,C6,C14,D11-12",
     "variants": []
   },
   "sheets": [
@@ -905,6 +933,10 @@
     [
       "0171fa45-2753-4764-a2d1-635868f3d686",
       "usb-serial"
+    ],
+    [
+      "58fb5d3a-0e7b-4a80-9d7b-2930fae372b1",
+      "machine-side"
     ]
   ],
   "text_variables": {},

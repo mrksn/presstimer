@@ -3973,16 +3973,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 130.81) (xy 245.11 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0008b32b-688f-4e00-a905-8f03538b63e8")
-	)
-	(wire
-		(pts
 			(xy 138.43 173.99) (xy 129.54 173.99)
 		)
 		(stroke
@@ -4023,7 +4013,17 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 125.73) (xy 236.22 125.73)
+			(xy 236.22 130.81) (xy 264.16 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05aa52d2-f2be-4180-b43a-52b1831f8677")
+	)
+	(wire
+		(pts
+			(xy 242.57 125.73) (xy 236.22 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4173,7 +4173,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 41.91) (xy 198.12 41.91)
+			(xy 168.91 41.91) (xy 198.12 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4343,13 +4343,23 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 127) (xy 245.11 125.73)
+			(xy 242.57 127) (xy 242.57 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3edbfd8a-af72-400f-8b51-2d7a9ece74e3")
+	)
+	(wire
+		(pts
+			(xy 264.16 129.54) (xy 264.16 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40343b01-699c-4396-bfb9-33434d483349")
 	)
 	(wire
 		(pts
@@ -4443,7 +4453,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 90.17) (xy 198.12 90.17)
+			(xy 173.99 90.17) (xy 198.12 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4503,7 +4513,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 87.63) (xy 198.12 87.63)
+			(xy 173.99 87.63) (xy 198.12 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4693,6 +4703,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 127) (xy 264.16 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e6d7dfc-9f02-44eb-9e2d-3759fc7a52fc")
+	)
+	(wire
+		(pts
 			(xy 198.12 35.56) (xy 201.93 35.56)
 		)
 		(stroke
@@ -4780,16 +4800,6 @@
 			(type default)
 		)
 		(uuid "9385fcbd-4f4f-4508-9a64-7c28249ba5b8")
-	)
-	(wire
-		(pts
-			(xy 245.11 130.81) (xy 245.11 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9416cf2a-5fd1-4a44-bee0-3e195f7ba16f")
 	)
 	(wire
 		(pts
@@ -5233,7 +5243,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 39.37) (xy 198.12 39.37)
+			(xy 168.91 39.37) (xy 198.12 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5350,6 +5360,66 @@
 			(type default)
 		)
 		(uuid "fe7dfa73-27e8-466b-9b35-88e6b8bc9b39")
+	)
+	(label "SENSE_RELAY2"
+		(at 191.77 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "057b0b1e-7298-4e7b-a872-2622216d3521")
+	)
+	(label "SENSE_SOLENOID1"
+		(at 179.07 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64c01ac7-06ee-439d-ae77-e5add69bfe89")
+	)
+	(label "SSR_SW_L"
+		(at 257.81 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "88d19fbe-e886-4e07-b9e1-968de0834db6")
+	)
+	(label "SENSE_SOLENOID2"
+		(at 179.07 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b77d345e-11cf-4b7e-8300-c4df2186bf89")
+	)
+	(label "SENSE_RELAY1"
+		(at 191.77 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e3f9966f-5a2e-418c-85dd-5d1ca7285bc3")
+	)
+	(label "SSR_L"
+		(at 257.81 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eee862bd-6ea4-4ba2-8088-a204d678a972")
 	)
 	(global_label "D_BL"
 		(shape input)
@@ -6584,7 +6654,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 185.42 39.37 0)
+		(at 163.83 39.37 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6596,7 +6666,7 @@
 		(fields_autoplaced yes)
 		(uuid "1be09b44-990d-4ba7-aa56-e0116be0924c")
 		(property "Reference" "J8"
-			(at 185.42 33.02 0)
+			(at 163.83 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6606,7 +6676,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 185.42 35.56 0)
+			(at 163.83 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6616,7 +6686,7 @@
 			)
 		)
 		(property "Footprint" "markus:DG305-5.0-02P-12-00A(H)"
-			(at 185.42 39.37 0)
+			(at 163.83 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6627,7 +6697,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 39.37 0)
+			(at 163.83 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6638,7 +6708,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 185.42 39.37 0)
+			(at 163.83 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6649,7 +6719,7 @@
 			)
 		)
 		(property "LCSC" "C5632695"
-			(at 185.42 33.02 0)
+			(at 163.83 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9831,7 +9901,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 250.19 127 0)
+		(at 269.24 129.54 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9841,7 +9912,7 @@
 		(dnp no)
 		(uuid "c1f0fb38-5419-4c0b-bba6-2bd1db811f20")
 		(property "Reference" "J10"
-			(at 250.19 135.89 0)
+			(at 269.24 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9851,7 +9922,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 250.19 133.35 0)
+			(at 269.24 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9861,7 +9932,7 @@
 			)
 		)
 		(property "Footprint" "markus:DG305-5.0-02P-12-00A(H)"
-			(at 250.19 127 0)
+			(at 269.24 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9872,7 +9943,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 127 0)
+			(at 269.24 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9883,7 +9954,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 250.19 127 0)
+			(at 269.24 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9894,7 +9965,7 @@
 			)
 		)
 		(property "LCSC" "C5632695"
-			(at 250.19 135.89 0)
+			(at 269.24 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10660,7 +10731,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 185.42 87.63 0)
+		(at 168.91 87.63 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10672,7 +10743,7 @@
 		(fields_autoplaced yes)
 		(uuid "de22aae2-33cc-4be6-bc79-f5625e396807")
 		(property "Reference" "J9"
-			(at 185.42 81.28 0)
+			(at 168.91 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10682,7 +10753,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 185.42 83.82 0)
+			(at 168.91 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10692,7 +10763,7 @@
 			)
 		)
 		(property "Footprint" "markus:DG305-5.0-02P-12-00A(H)"
-			(at 185.42 87.63 0)
+			(at 168.91 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10703,7 +10774,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 87.63 0)
+			(at 168.91 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10714,7 +10785,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 185.42 87.63 0)
+			(at 168.91 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10725,7 +10796,7 @@
 			)
 		)
 		(property "LCSC" "C5632695"
-			(at 185.42 81.28 0)
+			(at 168.91 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
